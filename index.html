@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Portfolio Website</title>
+    <title>Luis Ibañez</title>
+    <link rel="icon" href="./assets/MiLogoU.png" type="image/png">
+
+
+
+
 </head>
 
 <body id="home">
@@ -18,8 +23,9 @@
     </div>
     <nav>
         <div class="nav-container">
-            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
-                Luis <span>Ibañez</span>
+            <div class="logo flex flex-row" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="./assets/MiLogoU.png" alt="" class="w-[150px] h-[150px]">
+                <div class="my-auto">Luis <span>Ibañez</span></div>
             </div>
             <div class="links">
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
@@ -32,10 +38,10 @@
                     <a href="#experience">Experience</a>
                 </div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
         </div>
@@ -45,8 +51,8 @@
                 <a href="">Home</a>
                 <a href="#skills">Skills</a>
                 <a href="#experience">Experience</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
                 <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
             </div>
         </div>
@@ -69,14 +75,13 @@
                             class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/LuisIbanez2049" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i
                             class="fa-brands fa-github"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i
-                            class="fa-brands fa-facebook"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i
-                            class="fa-brands fa-twitter"></i></a>
+                            <a href="mailto:luisibanezcz@gmail.com" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-regular fa-envelope"></i></a>
                 </div>
-                <div class="btn" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1800">
+                <a href="https://www.linkedin.com/in/luis-ibañez-c/" target="_blank">
+                 <div class="btn" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1800">
                     <button>Download CV</button>
-                </div>
+                 </div>
+                </a>
             </div>
             <div class="image" data-aos="zoom-in" data-aos-duration="3000">
                 <img src="./assets/FotoCVParWeb.png" alt="" />
@@ -84,15 +89,15 @@
         </div>
     </section>
     <div>
-        <div class="w-full flex flex-row justify-center border border-white">
-            <div id="skills" class="w-[85%] border border-red-500 flex flex-col items-center">
-                <div class="text-white" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="w-full flex flex-row justify-center">
+            <div id="skills" class="w-[85%] flex flex-col items-center">
+                <div class="text-white mb-[30px]" data-aos="zoom-in" data-aos-duration="1500">
                     <span class="tecnologies ">TECNOLOGIES</span>
                 </div>
 
                 <div
-                    class="habilities-icon border border-white w-full flex flex-row flex-wrap justify-center items-center">
-                    <div class="div1 border border-green-600" data-aos="fade-right" data-aos-duration="1500">
+                    class="habilities-icon w-full flex flex-row flex-wrap justify-center items-center">
+                    <div class="div1" data-aos="fade-right" data-aos-duration="1500">
                         <div class="ferst flex flex-col items-center justify-between">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
                                 class="text-primary" xmlns="http://www.w3.org/2000/svg">
@@ -181,7 +186,7 @@
                         </div>
                     </div>
 
-                    <div class="div2 border border-green-600" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="div2" data-aos="fade-left" data-aos-duration="1500">
                         <div class="ferst flex flex-col items-center justify-between">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -277,13 +282,13 @@
     </div>
 
     <div>
-        <div id="experience" class="w-full flex flex-row justify-center mt-[100px] border border-white">
-            <div class="w-[85%] border border-red-500 flex flex-col items-center">
+        <div id="experience" class="w-full flex flex-row justify-center mt-[100px]">
+            <div class="w-[85%] flex flex-col items-center">
                 <div class="text-white mt-[20px] mb-[30px]" data-aos="zoom-in" data-aos-duration="1500">
                     <span class="tecnologies">EXPERIENCE</span>
                 </div>
 
-                <div class="border border-white w-full flex flex-row flex-wrap justify-center items-center gap-8">
+                <div class=" w-full flex flex-row flex-wrap justify-center items-center gap-8">
 
 
 
@@ -372,12 +377,117 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+    <div id="about" class="w-full flex flex-row justify-center mt-[200px]">
+        <div class="w-[85%] flex flex-col items-center">
+
+
+            <div class=" mt-[20px] mb-[30px]" data-aos="zoom-in" data-aos-duration="1500">
+                <span class="tecnologies text-white">ABOUT ME</span>
+            </div>
+
+            <div class="flex flex-col gap-6">
+                <p class="text-white text-justify" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    👋 Hi, I'm Luis Ibañez, a <span class="text-red-600 font-bold">Full Stack Developer</span> specializing in <span class="text-red-600 font-bold">Java + React</span> , passionate about creating scalable, optimized, intuitive, and secure web applications for users.</p>
+                <p class="text-white text-justify" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"> 
+                    Thanks to the experience I've gained, I've been able to highlight my ability to work under the <span class="text-red-600 font-bold">agile Scrum methodology</span> , improving team communication to deliver high-impact work.</p>
+                <p class="text-white text-justify" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                    I'm a <span class="text-red-600 font-bold">detail-oriented person</span>, managing my time effectively and prioritizing tasks, while also being <span class="text-red-600 font-bold">empathetic</span>, which helps me maintain excellent relationships and communication with colleagues. 
+                    I'm also <span class="text-red-600 font-bold">curious</span> and always in <span class="text-red-600 font-bold">constant growth</span>, reinforcing my knowledge and learning new technologies.</p>
+            </div>
+
+
+            <div class="w-full flex flex-row justify-center mt-[120px]">
+                <div class="w-[85%] flex flex-col items-center">
+        
+        
+                    <div class=" mt-[20px] mb-[30px]" data-aos="zoom-in" data-aos-duration="1500">
+                        <span class="tecnologies text-white">STUDIES</span>
+                    </div>
+                </div>
+            </div>
+            <div id="containerVerticalLine" class="relative w-full flex flex-row justify-center">
+
+                <div class="lava-lamp"></div>
+
+
+                <div id="1" class="absolute left-0 top-[80px] w-[50%] h-[10%] flex flex-row" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    <div class="shadowRed w-[92%] h-full rounded-[15px] p-[15px] border border-violet-700 flex flex-col items-center justify-center">
+                        <h1 class="textVerticalLine text-white">Full Stack Developer - MindHub</h1>
+                    </div>
+                    <div class=" bg-green-500 w-[8%] h-[10px] my-auto rounded-r-[5px]"></div>
+                </div>
+                <h1 class="textVerticalLine text-[white] absolute top-[109px] left-[52%]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">• Jun. 2024 - Oct. 2024</h1>
+
+
+
+                <div id="2" class="absolute right-0 top-[235px] w-[50%] h-[10%] flex flex-row" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class=" bg-green-500 w-[8%] h-[10px] my-auto rounded-l-[5px]"></div>
+                    <div class="shadowRed w-[92%] h-full rounded-[15px] p-[15px] border border-violet-700 flex flex-col items-center justify-center">
+                        <h1 class="textVerticalLine text-white">Information Systems Engineering - UTN </h1>
+                    </div>
+                </div>
+                <h1 class="textVerticalLine text-[white] absolute top-[33%] right-[52%]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">Mar. 2022 - Dic. 2023  •</h1>
+
+
+
+                <div id="3" class="absolute left-0 top-[400px] w-[50%] h-[10%] flex flex-row" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                    <div class="shadowRed w-[92%] h-full rounded-[15px] p-[15px] border border-violet-700 flex flex-col items-center justify-center">
+                        <h1 class="textVerticalLine text-white">Computer Technician - Et. N°37 Hogar Naval Stella Maris</h1>
+                    </div>
+                    <div class=" bg-green-500 w-[8%] h-[10px] my-auto rounded-r-[5px]"></div>
+                </div>
+                <h1 class="textVerticalLine text-[white] absolute top-[428px] left-[52%]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">• Mar. 2016 - Dic. 2021</h1>
+
+
+
+                <div id="2" class="absolute right-0 top-[560px] w-[50%] h-[10%] flex flex-row" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class=" bg-green-500 w-[8%] h-[10px] my-auto rounded-l-[5px]"></div>
+                    <div class="shadowRed w-[92%] h-full rounded-[15px] p-[15px] border border-violet-700 flex flex-col items-center justify-center">
+                        <h1 class="textVerticalLine text-white">Inglés B1 - Lenguas Vivas Juan Ramón Fernández</h1>
+                    </div>
+                </div>
+                <h1 class="textVerticalLine text-[white] absolute top-[590px] right-[52%]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Ene. 2017 - Dic. 2019  •</h1>
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    <div id="contact" class="bg-[#1a1919bb]">
+        <div class="w-full h-[130px] mt-[150px] flex flex-col justify-center items-center">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/luis-ibañez-c/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/LuisIbanez2049" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="mailto:luisibanezcz@gmail.com" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+            <h1 class="text-white mt-[15px] font-serif" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400"><i class="fa-regular fa-copyright">
+            </i> Luis Ibañez</h1>
+        </div>
+    </div>
+
+
+
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({ offset: 0 });
     </script>
     <script src="script.js"></script>
     <script src="carrusel.js"></script>
+    <script src="effectTyping.js"></script>
 </body>
 
 </html>
